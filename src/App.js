@@ -1,10 +1,14 @@
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Users from './users/pages/Users';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      My App
-    </div>
+    <Router>
+      <Route path = "/" exact>
+        <Users />
+      </Route>
+    </Router>
   );
 }
 
