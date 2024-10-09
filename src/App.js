@@ -1,8 +1,7 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import Users from './users/pages/Users';
 import NewPlace from './places/pages/NewPlace';
-import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 const App = () => {
   return (
