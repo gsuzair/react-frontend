@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './MainNavigation.css';
 import MainHeader from "../MainHeader/MainHeader";
+import NavLinks from "../NavLinks/NavLinks";
 
 const MainNavigation = props => {
     return (
@@ -16,7 +17,7 @@ const MainNavigation = props => {
                 <Link to="/" style={{ textDecoration: 'none', color: 'white' }} >Your Places</Link>
             </h1>
             <nav>
-                ...
+                <NavLinks />
             </nav>
         </MainHeader>
     )
