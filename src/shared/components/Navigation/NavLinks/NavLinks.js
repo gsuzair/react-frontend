@@ -18,7 +18,7 @@ const NavLinks = props => {
             </li>
             <li>
                 <NavLink to="/place/new">
-                    Three
+                    My Places
                 </NavLink>
             </li>
             <li>
